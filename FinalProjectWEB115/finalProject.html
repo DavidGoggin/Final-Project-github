@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="projectJS.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Build Your Meal Plan</h1>
+        <h2>Nickolas Price - WEB.115.0002</h2>
+    </header>
+
+    <main>
+        <form id="mealPlanForm">
+            <h3>Personal Information</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="goal">Weekly Goal:</label>
+            <input type="text" id="goal" name="goal" required><br>
+
+            <h3>Meal Plan for a Day</h3>
+            
+            <!-- Monday Inputs -->
+            <label for="monday_breakfast">Monday - Breakfast:</label>
+            <input type="text" id="monday_breakfast" required><br>
+
+            <label for="monday_snack1">Monday - Snack 1:</label>
+            <input type="text" id="monday_snack1" required><br>
+
+            <label for="monday_lunch">Monday - Lunch:</label>
+            <input type="text" id="monday_lunch" required><br>
+
+            <label for="monday_snack2">Monday - Snack 2:</label>
+            <input type="text" id="monday_snack2" required><br>
+
+            <label for="monday_dinner">Monday - Dinner:</label>
+            <input type="text" id="monday_dinner" required><br>
+
+            <!-- Tuesday Inputs -->
+            <label for="tuesday_breakfast">Tuesday - Breakfast:</label>
+            <input type="text" id="tuesday_breakfast" required><br>
+
+            <label for="tuesday_snack1">Tuesday - Snack 1:</label>
+            <input type="text" id="tuesday_snack1" required><br>
+
+            <label for="tuesday_lunch">Tuesday - Lunch:</label>
+            <input type="text" id="tuesday_lunch" required><br>
+
+            <label for="tuesday_snack2">Tuesday - Snack 2:</label>
+            <input type="text" id="tuesday_snack2" required><br>
+
+            <label for="tuesday_dinner">Tuesday - Dinner:</label>
+            <input type="text" id="tuesday_dinner" required><br>
+
+            <!-- Wednesday Inputs -->
+            <label for="wednesday_breakfast">Wednesday - Breakfast:</label>
+            <input type="text" id="wednesday_breakfast" required><br>
+
+            <label for="wednesday_snack1">Wednesday - Snack 1:</label>
+            <input type="text" id="wednesday_snack1" required><br>
+
+            <label for="wednesday_lunch">Wednesday - Lunch:</label>
+            <input type="text" id="wednesday_lunch" required><br>
+
+            <label for="wednesday_snack2">Wednesday - Snack 2:</label>
+            <input type="text" id="wednesday_snack2" required><br>
+
+            <label for="wednesday_dinner">Wednesday - Dinner:</label>
+            <input type="text" id="wednesday_dinner" required><br>
+
+            <!-- Thursday Inputs -->
+            <label for="thursday_breakfast">Thursday - Breakfast:</label>
+            <input type="text" id="thursday_breakfast" required><br>
+
+            <label for="thursday_snack1">Thursday - Snack 1:</label>
+            <input type="text" id="thursday_snack1" required><br>
+
+            <label for="thursday_lunch">Thursday - Lunch:</label>
+            <input type="text" id="thursday_lunch" required><br>
+
+            <label for="thursday_snack2">Thursday - Snack 2:</label>
+            <input type="text" id="thursday_snack2" required><br>
+
+            <label for="thursday_dinner">Thursday - Dinner:</label>
+            <input type="text" id="thursday_dinner" required><br>
+
+            <!-- Friday Inputs -->
+            <label for="friday_breakfast">Friday - Breakfast:</label>
+            <input type="text" id="friday_breakfast" required><br>
+
+            <label for="friday_snack1">Friday - Snack 1:</label>
+            <input type="text" id="friday_snack1" required><br>
+
+            <label for="friday_lunch">Friday - Lunch:</label>
+            <input type="text" id="friday_lunch" required><br>
+
+            <label for="friday_snack2">Friday - Snack 2:</label>
+            <input type="text" id="friday_snack2" required><br>
+
+            <label for="friday_dinner">Friday - Dinner:</label>
+            <input type="text" id="friday_dinner" required><br>
+
+            <!-- Saturday Inputs -->
+            <label for="saturday_breakfast">Saturday - Breakfast:</label>
+            <input type="text" id="saturday_breakfast" required><br>
+
+            <label for="saturday_snack1">Saturday - Snack 1:</label>
+            <input type="text" id="saturday_snack1" required><br>
+
+            <label for="saturday_lunch">Saturday - Lunch:</label>
+            <input type="text" id="saturday_lunch" required><br>
+
+            <label for="saturday_snack2">Saturday - Snack 2:</label>
+            <input type="text" id="saturday_snack2" required><br>
+
+            <label for="saturday_dinner">Saturday - Dinner:</label>
+            <input type="text" id="saturday_dinner" required><br>
+
+            <!-- Sunday Inputs -->
+            <label for="sunday_breakfast">Sunday - Breakfast:</label>
+            <input type="text" id="sunday_breakfast" required><br>
+
+            <label for="sunday_snack1">Sunday - Snack 1:</label>
+            <input type="text" id="sunday_snack1" required><br>
+
+            <label for="sunday_lunch">Sunday - Lunch:</label>
+            <input type="text" id="sunday_lunch" required><br>
+
+            <label for="sunday_snack2">Sunday - Snack 2:</label>
+            <input type="text" id="sunday_snack2" required><br>
+
+            <label for="sunday_dinner">Sunday - Dinner:</label>
+            <input type="text" id="sunday_dinner" required><br>
+
+            <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+            <button type="reset">Clear</button>
+            <button type="button" onclick="printPlanner()">Print</button>
+            <button type="button" onclick="downloadPlanner()">Download</button>
+        </form>
+    </main>
+</body>
+</html>
